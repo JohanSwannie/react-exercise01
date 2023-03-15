@@ -6,7 +6,7 @@ const InputColor = ({ color, setColor, setHex, isTextDark, setIsTextDark }) => {
       <input
         autoFocus
         type="text"
-        placeholder="Color name"
+        placeholder="Change Name of Color"
         required
         value={color}
         onChange={(e) => {
@@ -15,7 +15,7 @@ const InputColor = ({ color, setColor, setHex, isTextDark, setIsTextDark }) => {
         }}
       />
       <button type="button" onClick={() => setIsTextDark(!isTextDark)}>
-        Change Text Color
+        Change Text of Color
       </button>
     </form>
   );
