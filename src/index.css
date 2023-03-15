@@ -50,6 +50,14 @@ input[type="text"] {
   box-shadow: 5px 5px 7px #000;
   border-radius: 0.25rem;
   outline: none;
+  background-color: blue;
+  color: #FFF;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #FFF;
+  opacity: .7;
 }
 
 button {
