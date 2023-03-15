@@ -15,7 +15,7 @@ const InputColor = ({ color, setColor, setHex, isTextDark, setIsTextDark }) => {
         }}
       />
       <button type="button" onClick={() => setIsTextDark(!isTextDark)}>
-        Change Text of Color
+        Click to Change Text Color
       </button>
     </form>
   );
