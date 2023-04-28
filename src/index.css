@@ -27,8 +27,8 @@ body {
 .box {
   display: grid;
   place-content: center;
-  width: 11rem;
-  height: 11rem;
+  width: 12rem;
+  height: 12rem;
   border: 2px solid #000;
   box-shadow: 11px 13px 16px #000;
   border-radius: 0.35rem;
